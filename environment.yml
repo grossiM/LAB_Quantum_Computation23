@@ -1,0 +1,19 @@
+name: qiskit_trieste23
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python=3.9
+  - qiskit==0.44.3
+  - qiskit-machine-learning
+  - qiskit-ibm-provider
+  - pip
+  - pip:
+     - qiskit-algorithms
+     - qiskit-aer
+     - notebook
+     - pylatexenc
+     - matplotlib
+     - ipywidgets
+     - seaborn
+prefix: /opt/homebrew/Caskroom/miniforge/base/envs/qiskit_trieste23
